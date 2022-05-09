@@ -3,15 +3,6 @@ import requests
 from json import loads
 from os import environ
 
-# import firebase_admin
-# from firebase_admin import credentials
-# from firebase_admin import db
-# from firebase_admin import auth
-# 
-# cred = credentials.Certificate(environ["FBASE_SERVICE"])
-# firebase_admin.initialize_app(cred)
-# print(auth.list_users().users[0].uid)
-
 def code_exec(code):
 
   code = b64encode(code.encode('ascii')).decode('utf-8')

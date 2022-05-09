@@ -11,7 +11,7 @@ library(dashboardthemes)
 library(firebase)
 library(shinyAce)
 
-use_virtualenv(Sys.getenv("CODETOGO_ENV"))
+use_virtualenv(Sys.getenv("/home/gordon/workspace/feed/venv"))
 source_python("server.py")
 
 offset = 3
